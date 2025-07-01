@@ -1,0 +1,55 @@
+/* 全局樣式 */
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* 響應式調整 */
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .card {
+        margin: 10px;
+    }
+
+    .card-header h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* 表單樣式 */
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* 按鈕樣式 */
+.btn {
+    padding: 0.5rem 1.5rem;
+}
+
+/* 表格樣式 */
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    border-top: none;
+}
+
+/* 錯誤提示 */
+.invalid-feedback {
+    display: block;
+    color: #dc3545;
+} 
